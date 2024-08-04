@@ -82,8 +82,7 @@
 .nav-btn{
     position: relative;
     justify-content: space-between;
-
-
+    color: darkgreen;
 }
 .nav-btn:hover{
     color: var(--secondary-color);
@@ -122,14 +121,18 @@ display:flex;
     font-size: 1.5rem;
 }
 
+header{
+    height: 70px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 
 .Top-Banner{
  display: flex;
-margin-top: 15px;
-margin-left: 50px;
-margin-bottom: 10px;
 }
 .Top-Banner h1{
     display: flex;
@@ -170,6 +173,7 @@ margin-bottom: 10px;
    margin-left: 10px;
    font-weight: 600;
    text-decoration: none;
+   color: green;
   
 }
 .Login-section a:hover{
@@ -240,8 +244,8 @@ main{
 
 .Recipe-search {
 width: 100%;
-background-color:var(--primary-color);
-color: white;
+background-color:var(--tertiary-color);
+color: rgb(70, 164, 70);
 text-align: center;
 /* margin-bottom: 25px; */
 
@@ -268,6 +272,7 @@ height: 90px;
 .search-section .search-btn{
  padding:16px 30px 18px 30px;
  margin-left:5px ;
+ color: darkgreen;
 
 }
 .search-section input{
@@ -395,7 +400,7 @@ transform: scale(1);
 */
 
 .footer {
-    background-color: #376e43;
+    background-color: #073d13;
     color: #fff;
     padding: 20px 0;
     text-align: center;

@@ -1,8 +1,11 @@
-const apiId="58b50fcd";
-const apiKey="207cd3ef740bdf16e56690b0e46fc4c1";
+// Add API Id
+const apiId="";
+// Add API KEY
+const apiKey="";
+
 const baseUrl =`https://api.edamam.com/api/recipes/v2?type=public&app_id=${apiId}&app_key=${apiKey}`;
 const recipeContainer = document.querySelector("#recipe-container");
-const SearchText=document.querySelector(".search-section");
+const SearchText=document.querySelector(".search");
 const searchbtn=document.querySelector(".search-btn");
 
 searchbtn.addEventListener("click",()=>FetchRecipe(SearchText.value));
@@ -18,7 +21,9 @@ function FetchRecipe(type = "noodles") {
   const url=baseUrl +`&q=${type}`;
   fetch(url)
   .then((response)=> response.json())
-  .then((data) => FindRecipesList(data.hits))
+  .then((data) => {
+  console.log("API Response:", data);
+  FindRecipesList(data.hits)})
   .catch((error) => console.log(error));
 }
 FetchRecipe();
@@ -57,6 +62,7 @@ const htmlString=`<div class="Recipe">
           recipeContainer.insertAdjacentHTML("beforeend",htmlString);
   });
 };
+
 
 
 
