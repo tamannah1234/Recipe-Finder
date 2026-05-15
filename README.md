@@ -1,71 +1,129 @@
-# 🍽️ Recipe-Finder – Search and Discover Thousands of Recipes
+# Recipe Finder
+
+Recipe Finder is a web application that allows users to search and explore thousands of recipes using a Food Recipe API. The application provides recipe details such as ingredients, cooking instructions, and images through a responsive and interactive user interface.
+
+The project was developed using HTML, CSS, and JavaScript to demonstrate API integration, DOM manipulation, and frontend development concepts.
 
 ---
 
-## 🚀 Overview
-**Recipe-Finder** is a user-friendly web application that allows users to search and discover **over 10,000 recipes** using the **Food Recipe API**.  
-Built with **HTML, CSS, and JavaScript**, it provides dynamic content along with essential user features like **login, registration, and password recovery**.
+## Project Overview
 
-This project demonstrates integration with third-party APIs, DOM manipulation, and responsive UI development.
+The main objective of this project is to build a dynamic recipe discovery platform where users can search recipes based on ingredients or dish names. The application fetches real-time recipe data from an external API and displays it in an organized and user-friendly format.
 
----
+The project demonstrates:
 
-## ⭐ Features
-- 🔍 **Search Recipes** – Find thousands of recipes by ingredient or dish name  
-- 📋 **Dynamic Recipe List** – Displays recipe title, image, and ingredients  
-- 📝 **Recipe Steps** – Shows detailed cooking steps for each recipe  
-- 🔑 **User Authentication** – Login, registration, and password recovery  
-- ⚡ **Responsive & Interactive UI** – Built with HTML, CSS, and JavaScript  
+- Third-party API integration
+- Dynamic content rendering
+- Responsive web design
+- DOM manipulation using JavaScript
+- User authentication interface design
 
 ---
 
-## 🧰 Technologies Used
-- **HTML** – Structure and layout of the application  
-- **CSS** – Styling and responsive design  
-- **JavaScript** – DOM manipulation, API fetching, and interactivity  
-- **Food Recipe API** – Dynamic recipe content  
+## Features
+
+- Search recipes by ingredient or dish name
+- Display recipe title, image, and ingredients
+- View detailed cooking instructions
+- Login and registration interface
+- Password recovery functionality
+- Responsive and interactive user interface
 
 ---
 
-## 📥 How to Use
+## Technologies Used
 
-1. **Add API Credentials**
+- HTML5
+- CSS3
+- JavaScript
+- Food Recipe API
+
+---
+
+## Installation and Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/Recipe-Finder.git
+```
+
+### Navigate to the project directory
+
+```bash
+cd Recipe-Finder
+```
+
+### Add API Credentials
+
 ```javascript
-// Add your API ID and Key
 const apiId = "";
 const apiKey = "";
-Open index.html in your browser
+```
 
-Search Recipes
+### Run the Application
 
-Type an ingredient or dish in the search bar
+Open the `index.html` file in your browser.
 
-Press Enter or click the Search button
+---
 
-View Recipe Details
+## How to Use
 
-Recipe title
+1. Enter an ingredient or recipe name in the search bar.
+2. Click the search button or press Enter.
+3. Browse the list of available recipes.
+4. Select a recipe to view ingredients and cooking instructions.
 
-Recipe image
+---
 
-Cooking steps and ingredients
+## Project Structure
 
-📂 File Structure
-graphql
-Copy code
+```bash
 Recipe-Finder/
-├── index.html        # Main HTML file
-├── style.css         # Application styling
-├── script.js         # Recipe API integration & DOM logic
-└── README.md         # Project documentation
-🤝 Contributing
-Contributions are welcome!
+│── index.html
+│── style.css
+│── script.js
+└── README.md
+```
 
-Fork the repository
+---
 
-Create a new feature branch
+## Learning Outcomes
 
-Submit a pull request
+Through this project, I gained hands-on experience in:
 
-📜 License
+- API integration using JavaScript
+- Fetching and displaying dynamic data
+- DOM manipulation and event handling
+- Building responsive web interfaces
+- Structuring frontend applications
+
+---
+
+## Future Enhancements
+
+- Save favorite recipes
+- Advanced recipe filtering
+- Dark mode support
+- Backend database integration
+- User profile management
+
+---
+
+## Contributing
+
+Contributions are welcome. Feel free to fork the repository and submit a pull request for improvements.
+
+---
+
+## License
+
 This project is licensed under the MIT License.
+
+---
+
+## Author
+
+Tamanna Singh
+
+GitHub: https://github.com/tamannah1234
